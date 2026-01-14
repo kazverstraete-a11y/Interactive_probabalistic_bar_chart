@@ -7,6 +7,7 @@ import matplotlib.colors as mcolors
 from matplotlib.widgets import Slider
 import scipy.stats as stats
 from mpl_toolkits.axes_grid1 import make_axes_locatable 
+import streamlit as st
 
 #--- Magic Numbers ---
 CONFIDENCE_LEVEL = 0.95
@@ -111,4 +112,5 @@ cb.ax.set_ylabel('Distribution > Threshold probability (%)', fontsize=12, labelp
 
 #--- Show ---
 plt.show()
+st.pyplot(fig)
 
