@@ -12,9 +12,9 @@ import streamlit as st
 #--- Markdown ---
 st.markdown(
 """
-Bars represent annual means with 95% confidence intervals.
-Color encodes the probability that the underlying distribution
-exceeds the chosen threshold.
+This visualization shows annual means with 95% confidence intervals.
+Bar color encodes the probability that the underlying distribution
+exceeds a user-defined threshold.
 """
 )
 
